@@ -1,5 +1,6 @@
-"""An example of how to represent a group of acquaintances in Python."""
+rows = [{ "name": "Jason", "job": "students", "age": "21"}, 
+        { "name": "Jenny", "job": "students", "age": "22"},
+        ]
 
-# Your code to go here...
-
-my_group =
+for row in rows:
+    print(f"{row["name"]} is {row["age"]}, a {row["job"]}" )
